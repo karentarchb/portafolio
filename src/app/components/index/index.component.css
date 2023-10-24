@@ -8,6 +8,7 @@
   margin: 0 auto;
 }
 .designs{
+  font-family: 'Comfortaa', cursive;
   margin-top: 10px;
   color: #fff;
   text-align: center;
@@ -52,10 +53,12 @@
               -11px 11px 22px #468b8e;
 }
 .card-title{
+  font-family: 'Comfortaa', cursive;
   color: #fff;
   text-align: center;
 }
 .card-text{
+  font-family: 'Comfortaa', cursive;
   color: #fff;
   text-align: center;
 }

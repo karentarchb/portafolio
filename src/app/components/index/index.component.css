@@ -49,8 +49,8 @@
               -11px 11px 22px #650b65;
 }
 .rControl:hover{
-  box-shadow:  11px -11px 22px #365758,
-              -11px 11px 22px #468b8e;
+  box-shadow:  11px -11px 22px #36575686,
+              -11px 11px 22px #468a8e85;
 }
 .card-title{
   font-family: 'Comfortaa', cursive;
@@ -63,14 +63,14 @@
   text-align: center;
 }
 .hoverone:hover{
-  box-shadow:  11px -11px 22px #3b1a3b,
-              -11px 11px 22px #650b65;
+  box-shadow:  11px -11px 6px #3b1a3ba2,
+              -11px 11px 6px #650b656f;
 }
 .hoverConb:hover{
-  box-shadow:  11px -11px 22px #468b8e,
-              -11px 11px 22px #650b65;
+  box-shadow:  11px -11px 6px #468a8e6e,
+              -11px 11px 6px #650b6575;
 }
 .hovertwo:hover{
-  box-shadow:  11px -11px 22px #365758,
-              -11px 11px 22px #468b8e;
+  box-shadow:  11px -11px 6px #36575874,
+              -11px 11px 6px #468a8e64;
 }

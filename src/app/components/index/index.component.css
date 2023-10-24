@@ -13,7 +13,7 @@
   text-align: center;
 }
 .cards{
-  margin: 20px 30px 0px 30px;
+  margin: 10px 30px 0px 30px;
   margin-top: 20px;
   width: 290px;
   height: 330px;
@@ -48,6 +48,26 @@
               -11px 11px 22px #650b65;
 }
 .rControl:hover{
-  box-shadow:  11px -11px 22px #1a3b2c,
-              -11px 11px 22px #0b6532;
+  box-shadow:  11px -11px 22px #365758,
+              -11px 11px 22px #468b8e;
+}
+.card-title{
+  color: #fff;
+  text-align: center;
+}
+.card-text{
+  color: #fff;
+  text-align: center;
+}
+.hoverone:hover{
+  box-shadow:  11px -11px 22px #3b1a3b,
+              -11px 11px 22px #650b65;
+}
+.hoverConb:hover{
+  box-shadow:  11px -11px 22px #468b8e,
+              -11px 11px 22px #650b65;
+}
+.hovertwo:hover{
+  box-shadow:  11px -11px 22px #365758,
+              -11px 11px 22px #468b8e;
 }

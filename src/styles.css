@@ -11,3 +11,6 @@ body {
   font-family: 'Comfortaa', cursive;
   background-color: #222222;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

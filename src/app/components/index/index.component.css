@@ -1,0 +1,53 @@
+.backgronund{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.backg{
+  margin: 0 auto;
+}
+.designs{
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+.cards{
+  margin: 20px 30px 0px 30px;
+  margin-top: 20px;
+  width: 290px;
+  height: 330px;
+  border-radius: 23px;
+  background: linear-gradient(45deg, #242424, #1f1f1f);
+  box-shadow:  15px -15px 22px #1d1d1d,
+              -15px 15px 22px #272727;
+}
+.controlers{
+  width: 100px;
+  height: 100px;
+  border: transparent;
+  border-radius: 178px;
+  background: linear-gradient(45deg, #242424, #1f1f1f);
+  box-shadow:  11px -11px 22px #171717,
+              -11px 11px 22px #2d2d2d;
+}
+.lControl{
+    background-image: url('../../../assets/lefticon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rControl{
+  background-image: url('../../../assets/righticon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lControl:hover{
+  box-shadow:  11px -11px 22px #3b1a3b,
+              -11px 11px 22px #650b65;
+}
+.rControl:hover{
+  box-shadow:  11px -11px 22px #1a3b2c,
+              -11px 11px 22px #0b6532;
+}

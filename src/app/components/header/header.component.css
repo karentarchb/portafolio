@@ -1,0 +1,53 @@
+.logo{
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+}
+.imgs,
+.ktlogo{
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.brand{
+  width: 160px;
+  height: 50px;
+  color: #CB6CE6;
+}
+.other{
+  width: 150px;
+  height: 50px;
+  color: aliceblue;
+  font-size: 13px;
+  margin-left: 30px;
+}
+.buttons{
+  margin-top: 10px;
+}
+.btn {
+  max-width: 200px;
+  border: transparent;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+  padding: 4px 6px;
+  color: #fff;
+  margin-left: 20px;
+  background: transparent;
+}
+.btn::after {
+  max-width: 100%;
+  height: 2px;
+  display: block;
+  content: "";
+  background-image: linear-gradient(-45deg, #45dc93, #b06ab3);
+  opacity: 1;
+  margin-bottom: -6px;
+  margin-top: 1px;
+}
+.btn:hover{
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #45dc93, #b06ab3);
+}
+@media (min-width: 320px) {}

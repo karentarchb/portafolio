@@ -7,6 +7,11 @@ import { PicPopFrComponent } from '../pop-ups/pic-pop-fr/pic-pop-fr.component';
 import { PicPopFiComponent } from '../pop-ups/pic-pop-fi/pic-pop-fi.component';
 import { PicPopSiComponent } from '../pop-ups/pic-pop-si/pic-pop-si.component';
 import { PicPopSeComponent } from '../pop-ups/pic-pop-se/pic-pop-se.component';
+import { PicPopEiComponent } from '../pop-ups/pic-pop-ei/pic-pop-ei.component';
+import { PicPopNiComponent } from '../pop-ups/pic-pop-ni/pic-pop-ni.component';
+import { PicPopTzComponent } from '../pop-ups/pic-pop-tz/pic-pop-tz.component';
+import { PicPopElComponent } from '../pop-ups/pic-pop-el/pic-pop-el.component';
+import { PicPopTeComponent } from '../pop-ups/pic-pop-te/pic-pop-te.component';
 
 @Component({
   selector: 'app-index',
@@ -50,6 +55,31 @@ export class IndexComponent {
   }
   openpicSe(){
     const dialogref = this.dialog.open(PicPopSeComponent, {
+      height: '95%',
+      width: '95%'});
+  }
+  openpicEi(){
+    const dialogref = this.dialog.open(PicPopEiComponent, {
+      height: '95%',
+      width: '95%'});
+  }
+  openpicNi(){
+    const dialogref = this.dialog.open(PicPopNiComponent, {
+      height: '95%',
+      width: '95%'});
+  }
+  openpicTe(){
+    const dialogref = this.dialog.open(PicPopTeComponent, {
+      height: '95%',
+      width: '95%'});
+  }
+  openpicEl(){
+    const dialogref = this.dialog.open(PicPopElComponent, {
+      height: '95%',
+      width: '95%'});
+  }
+  openpicTz(){
+    const dialogref = this.dialog.open(PicPopTzComponent, {
       height: '95%',
       width: '95%'});
   }

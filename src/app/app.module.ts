@@ -16,6 +16,11 @@ import { PicPopFrComponent } from './components/pop-ups/pic-pop-fr/pic-pop-fr.co
 import { PicPopFiComponent } from './components/pop-ups/pic-pop-fi/pic-pop-fi.component';
 import { PicPopSiComponent } from './components/pop-ups/pic-pop-si/pic-pop-si.component';
 import { PicPopSeComponent } from './components/pop-ups/pic-pop-se/pic-pop-se.component';
+import { PicPopEiComponent } from './components/pop-ups/pic-pop-ei/pic-pop-ei.component';
+import { PicPopNiComponent } from './components/pop-ups/pic-pop-ni/pic-pop-ni.component';
+import { PicPopTeComponent } from './components/pop-ups/pic-pop-te/pic-pop-te.component';
+import { PicPopElComponent } from './components/pop-ups/pic-pop-el/pic-pop-el.component';
+import { PicPopTzComponent } from './components/pop-ups/pic-pop-tz/pic-pop-tz.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { PicPopSeComponent } from './components/pop-ups/pic-pop-se/pic-pop-se.co
     PicPopFrComponent,
     PicPopFiComponent,
     PicPopSiComponent,
-    PicPopSeComponent
+    PicPopSeComponent,
+    PicPopEiComponent,
+    PicPopNiComponent,
+    PicPopTeComponent,
+    PicPopElComponent,
+    PicPopTzComponent
   ],
   imports: [
     BrowserModule,

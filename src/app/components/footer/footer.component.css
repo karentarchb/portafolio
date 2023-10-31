@@ -10,3 +10,6 @@
   line-height: 30px;
   margin: 0 auto;
 }
+.footer:hover{
+  background: linear-gradient(45deg, #F10AE0, #50F8C8);
+}

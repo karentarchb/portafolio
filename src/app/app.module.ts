@@ -21,6 +21,8 @@ import { PicPopNiComponent } from './components/pop-ups/pic-pop-ni/pic-pop-ni.co
 import { PicPopTeComponent } from './components/pop-ups/pic-pop-te/pic-pop-te.component';
 import { PicPopElComponent } from './components/pop-ups/pic-pop-el/pic-pop-el.component';
 import { PicPopTzComponent } from './components/pop-ups/pic-pop-tz/pic-pop-tz.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { AcknowComponent } from './components/acknow/acknow.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { PicPopTzComponent } from './components/pop-ups/pic-pop-tz/pic-pop-tz.co
     PicPopNiComponent,
     PicPopTeComponent,
     PicPopElComponent,
-    PicPopTzComponent
+    PicPopTzComponent,
+    AboutmeComponent,
+    AcknowComponent
   ],
   imports: [
     BrowserModule,

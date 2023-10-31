@@ -1,0 +1,99 @@
+.about{
+  margin-top: 35px;
+}
+.img{
+  margin: 0 auto;
+  width: 370px;
+  height: 370px;
+}
+.logomy{
+  width: 370px;
+  height: 370px;
+}
+.about-me{
+  margin: 20px;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red{
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.red-git{
+  background-image: url('../../../assets/git.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.red-git:hover{
+  background-image: url('../../../assets/gitp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.red-in{
+  margin-right: 60px;
+  background-image: url('../../../assets/linke.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.red-in:hover{
+  margin-right: 60px;
+  background-image: url('../../../assets/linkep.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.more{
+  margin-top: 30px;
+}
+.name{
+  color: #CB6CE6;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+.title{
+  font-weight: 700;
+  font-size: 18px;
+  color: #CB6CE6;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+.title-case{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+.paragraph{
+  text-align: center;
+}
+::ng-deep .mdc-linear-progress__bar-inner {
+  border-color: var(--mdc-linear-progress-active-indicator-color, #CB6CE6) !important;
+}
+::ng-deep .mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: #CB6CE6;
+}
+.cont-img{
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+}
+.skills{
+  width: 500px;
+  height: 400px;
+}
+.educ{
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+}

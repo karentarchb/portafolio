@@ -1,13 +1,17 @@
-<div class="logo d-flex row">
-  <div class="imgs col-1">
-    <img class="ktlogo" src="../../../assets/KarenTarchb.jpg" alt="KarenTarchb Logo">
+<div class="header d-flex row">
+  <div class="content col-4">
+    <div class="row d-flex">
+      <div class="logo col-2" (click)="redirectToPage('index')">
+        <img class="ktlogo" src="../../../assets/KarenTarchb.jpg" alt="KarenTarchb Logo">
+      </div>
+      <h3 class="brand mt-3 col-1" (click)="redirectToPage('index')">KarenTarchb</h3>
+      <p class="other mt-4 col-1" (click)="redirectToPage('index')">personal portfolio.</p>
+    </div>
   </div>
-  <h3 class="brand mt-2 col-1">KarenTarchb</h3>
-  <p class="other mt-3 col-1">personal portfolio.</p>
   <div class="buttons col-8">
     <div class="content d-flex row justify-content-end">
-      <button class="btn col-5">About Me</button>
-      <button class="btn col-5">Acknowledgments</button>
+      <button class="btn col-5" (click)="redirectToPage('about')">About Me</button>
+      <button class="btn col-5" (click)="redirectToPage('acknow')">Acknowledgments</button>
     </div>
   </div>
 </div>

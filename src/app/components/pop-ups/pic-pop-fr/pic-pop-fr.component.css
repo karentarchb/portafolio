@@ -5,6 +5,13 @@
   height: 100%;
   background: #222222;
 }
+.title{
+  color: aliceblue;
+  position: absolute;
+  font-family: 'Comfortaa', cursive;
+  right: 5px;
+  background: transparent;
+}
 .port{
   width: 60%;
   height: 95%;

@@ -23,6 +23,7 @@ import { PicPopElComponent } from './components/pop-ups/pic-pop-el/pic-pop-el.co
 import { PicPopTzComponent } from './components/pop-ups/pic-pop-tz/pic-pop-tz.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { AcknowComponent } from './components/acknow/acknow.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { AcknowComponent } from './components/acknow/acknow.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    MaterialModule
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

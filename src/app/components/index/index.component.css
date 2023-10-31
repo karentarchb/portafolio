@@ -1,7 +1,7 @@
 .backgronund{
   position: relative;
   display: flex;
-  width: 100%;
+  max-width: 100%;
   margin-top: 20px;
 }
 .backg{
@@ -42,16 +42,16 @@
 }
 .lControl{
   margin-right: 60px;
-    background-image: url('../../../assets/lefticon.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url('../../../assets/lefticon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .rControl{
   background-image: url('../../../assets/righticon.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .lControl:hover{
   box-shadow:  11px -11px 22px #3b1a3b,
@@ -83,4 +83,39 @@
 .hovertwo:hover{
   box-shadow:  8px 8px 9px #36575874,
              -8px -8px 9px #468a8e64;
+}
+@media only screen and (max-width: 575px){
+  .backg{
+    min-width: 320px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+  }
+  .designs{
+    font-size:18px;
+    margin-top: 5px;
+  }
+  .lControl{
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .rControl{
+    position: absolute;
+    top: 30%;
+    right: 5px;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .cards-content{
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 332px;
+  }
 }

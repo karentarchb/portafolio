@@ -5,13 +5,22 @@
         <img class="ktlogo" src="../../../assets/KarenTarchb.jpg" alt="KarenTarchb Logo">
       </div>
       <h3 class="brand mt-3 col-1" (click)="redirectToPage('index')">KarenTarchb</h3>
-      <p class="other mt-4 col-1" (click)="redirectToPage('index')">personal portfolio.</p>
+      <p class="other mt-4 col-1 d-none d-lg-block d-sm-none d-md-none" (click)="redirectToPage('index')">personal portfolio.</p>
     </div>
   </div>
-  <div class="buttons col-8">
+  <div class="buttons col-8 d-none d-lg-block d-sm-none d-md-none">
     <div class="content d-flex row justify-content-end">
       <button class="btn col-5" (click)="redirectToPage('about')">About Me</button>
       <button class="btn col-5" (click)="redirectToPage('acknow')">Acknowledgments</button>
     </div>
   </div>
+  <div class="buttons col-8 .d-none .d-sm-block .d-md-none">
+    <button class="img" mat-button [matMenuTriggerFor]="menu"></button>
+    <mat-menu #menu="matMenu">
+      <button class="btn" (click)="redirectToPage('about')">About Me</button>
+      <button class="btn" (click)="redirectToPage('acknow')">Acknowledgments</button>
+    </mat-menu>
+  </div>
 </div>
+
+

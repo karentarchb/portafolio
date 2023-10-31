@@ -1,0 +1,35 @@
+.name{
+  margin-top: 90px;
+  color: #CB6CE6;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.title-case{
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+.image{
+  display: flex;
+}
+.imge{
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+}
+.paragraph{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+}
+.neg{
+  font-weight: 700;
+  font-size: 15px;
+  color: #CB6CE6;
+}

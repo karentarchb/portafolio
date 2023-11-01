@@ -1,3 +1,7 @@
+.acknow{
+  padding: 5%;
+  margin-top: -5%;
+}
 .name{
   margin-top: 90px;
   color: #CB6CE6;
@@ -32,4 +36,20 @@
   font-weight: 700;
   font-size: 15px;
   color: #CB6CE6;
+}
+@media only screen and (max-width: 575px){
+  .acknow{
+    margin: 5px;
+    margin-top: -10px;
+  }
+  .name{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .title-case{
+    font-size: 15px;
+  }
+  .paragraph{
+    font-size: 11px;
+  }
 }

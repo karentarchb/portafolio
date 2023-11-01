@@ -55,29 +55,29 @@
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(45deg, #45dc93, #b06ab3);
 }
-.img{
-  background-image: url('../../../assets/burg.png');
-  background-size:40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
-}
-.img:hover{
-  background-image: url('../../../assets/burgp.png');
-  background-size:40%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
-}
 @media only screen and (max-width: 575px){
   .brand{
     font-size: 20px;
     width: 10px;
   }
   .img{
-    margin-left: 140px;
+    margin-left: 90%;
+    width: 30px;
+    height: 30px;
+  }
+  .img{
+    background-image: url('../../../assets/burg.png');
+    background-size:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+  .img:hover{
+    background-image: url('../../../assets/burgp.png');
+    background-size:40%;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 30px;
     height: 30px;
   }

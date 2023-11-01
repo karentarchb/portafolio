@@ -164,3 +164,112 @@
     margin-top: -10px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 1023px){
+  .about{
+    margin-top: 12px;
+  }
+  .about-me{
+    margin: 5px;
+  }
+  .img{
+    margin-left: -25px;
+    width: 250px;
+    height: 250px;
+  }
+  .logomy{
+    width: 250px;
+    height: 250px;
+  }
+  .name{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    min-width: 200px;
+    width: 70%;
+    font-size: 28px;
+  }
+  .title{
+    font-size: 19px;
+    min-width: 70px;
+  }
+  .paragraph{
+    font-size: 14px;
+  }
+  .red{
+    width: 60px;
+    height: 60px;
+  }
+  .redes{
+    position: absolute;
+    top: 135px;
+    right: -3%;
+    min-width: 150px;
+    width: 70%;
+  }
+  .otherM{
+    margin-top: -50px;
+  }
+  .skill{
+    display: flex;
+    margin-top: -40px;
+  }
+  .cont-img{
+    width: 300px;
+    height: 130px;
+  }
+  .skills{
+    margin: 0 auto;
+    width: 300px;
+    height: 130px;
+  }
+  .text{
+    font-size: 14px;
+    margin-top: -10px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+  .about{
+    margin-top: 12px;
+  }
+  .about-me{
+    margin: 5px;
+  }
+  .img{
+    width: 250px;
+    height: 250px;
+  }
+  .logomy{
+    width: 250px;
+    height: 250px;
+  }
+  .name{
+    font-size: 28px;
+  }
+  .title{
+    font-size: 18px;
+    min-width: 70px;
+  }
+  .title-case{
+    font-size: 18px;
+  }
+  .paragraph{
+    font-size: 10px;
+  }
+  .skill{
+    display: flex;
+    margin-top: -40px;
+  }
+  .cont-img{
+    width: 300px;
+    height: 130px;
+  }
+  .skills{
+    margin: 0 auto;
+    width: 300px;
+    height: 130px;
+  }
+  .text{
+    font-size: 12px;
+    margin-top: -15px;
+  }
+}

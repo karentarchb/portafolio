@@ -53,3 +53,24 @@
     font-size: 11px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+  .acknow{
+    margin: 5px;
+    margin-top: -10px;
+  }
+  .name{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .title-case{
+    font-size: 15px;
+  }
+  .imge{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .paragraph{
+    font-size: 11px;
+  }
+}

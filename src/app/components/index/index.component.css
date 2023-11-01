@@ -119,3 +119,54 @@
     height: 332px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 1023px){
+  .backg{
+    min-width: 320px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+  }
+  .designs{
+    font-size:18px;
+    margin-top: -5px;
+  }
+  .lControl{
+    position: absolute;
+    top: 65%;
+    left: 80px;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+  .rControl{
+    position: absolute;
+    top: 65%;
+    right: 80px;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+  .cards-content{
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -1px;
+    height: 332px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1023px){
+  .backg{
+    min-width: 320px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+  .backg{
+    min-width: 320px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+  }
+}
